@@ -94,7 +94,7 @@ nav li a{
 
 .banner-container .banner-text h1{
     color: #FFF;
-font-family: Mulish;
+    font-family: 'Mulish', sans-serif; ;
 font-size: 64px;
 font-style: normal;
 font-weight: 800;
@@ -107,7 +107,7 @@ padding-left: 300px;
     width: 620px;
     color: #FFF;
 text-align: center;
-font-family: Mulish;
+font-family: 'Mulish', sans-serif; ;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -190,4 +190,137 @@ footer small{
     font-size: 16px;
     font-weight: 300;
 
+}
+.choose-us-content{
+    text-align: center;
+    margin-top: 5%;
+}
+.choose-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap:15px;
+}
+.choose-us-box-1{
+    flex-basis:580px;
+    
+
+}
+.hotel-box{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 10px 15px;
+   
+
+}
+.map-box{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 10px 15px;
+}
+.price-box{
+   margin: 0 auto;
+   display: block;
+   border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 10px 15px;
+}
+.deals-container {
+
+}
+.deals-img{
+    position: relative;
+    margin-bottom: 20px;
+}
+.deals-text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.card-2{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.deals-icons{
+    display: flex;
+    gap: 25px;
+}
+.fa-regular{
+    margin-right: 10px;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.deals-btn{
+    margin-left: 40%;
+}
+.newsletter-section{
+    display: flex;
+    gap: 20px;
+    margin-top: 5%;
+}
+.form-container{
+    border: 2px solid red;
+}
+.form-container h2{
+    color: #131318;
+    font-family: 'Mulish', sans-serif; ;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+.form-container p{
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif; ;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.form-container form{
+    margin-top: 10px;
+}
+.form-container form input{
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+outline: none;
+margin-top: 20px;
+
+}
+.form-container form .sub-btn{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border: none;
+outline: none;
+padding: 20px 10px;
+}
+.newsletter-img {
+    width: 600px;
+    
+}
+.newsletter-img img{
+    width: 100%;
 }
